@@ -2,7 +2,7 @@
 # Found in
 # https://stackoverflow.com/questions/5619848/how-to-have-accent-insensitive-filter-in-django-with-postgres/5787198#5787198
 # parts of credits comes to clarisys.fr
-from django.db.backends.postgresql_psycopg2.base import *
+from django.db.backends.postgresql.base import *
 
 
 class DatabaseOperations(DatabaseOperations):
